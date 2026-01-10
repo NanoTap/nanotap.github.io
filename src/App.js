@@ -1,9 +1,11 @@
 import screenshot1 from './screenshots/NanoTap1.png';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <SpeedInsights />
       <header className="App-header">
         <h1 className="headerTitle">NanoTap</h1>
         <img src={screenshot1} width="50%" className="headerScreenshot" alt="App Screen" />

@@ -7,15 +7,6 @@ function App() {
       <header className="App-header">
         <h1 className="headerTitle">NanoTap</h1>
         <img src={screenshot1} width="50%" className="headerScreenshot" alt="App Screen" />
-        <button
-          className="App-link"
-          onClick={() => {
-            window.location.href = "App.js#Install";
-          }}
-        >
-          Install ⬇
-        </button>
-
 
 <section id="About">
         <h1 className="AboutTitle">

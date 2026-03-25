@@ -6,6 +6,10 @@ function App() {
   return (
     <div className="App">
       <SpeedInsights />
+       <div id="banner">
+        Farewell, NanoTap is now a public archive.{" "}
+        <a href="/farewell/index.html">Learn more</a>
+      </div>
       <header className="App-header">
         <h1 className="headerTitle">NanoTap</h1>
         <img src={screenshot1} width="50%" className="headerScreenshot" alt="App Screen" />

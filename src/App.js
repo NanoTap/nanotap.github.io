@@ -1,10 +1,12 @@
 import screenshot1 from './screenshots/NanoTap1.png';
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Analytics } from '@vercel/analytics/react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <Analytics />
       <SpeedInsights />
        <div id="banner">
         Farewell, NanoTap is now a public archive.{" "}
